@@ -31,6 +31,10 @@ header nav span{
     background-color: #D7D9D9;
 }
 
+.navbar-brand{
+    color: #D7D9D9;
+}
+
 
 /* header nav{
     display: flex;
