@@ -1,0 +1,660 @@
+/*
+#D7D9D9
+#8C8C87
+#8C593B
+#731F1F
+#0D0D0D
+*/
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html{
+    font-size: 62.5%;
+    /* 1 rem  = 10px */
+}
+
+body{
+    background-color: #141414eb;
+}
+
+/* Nav */
+.nav-link{
+    color: #D7D9D9;
+    font-size: 1.3rem;
+}
+header nav span{
+    background-color: #D7D9D9;
+}
+
+
+/* header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    height: 3rem;
+    overflow-y:hidden ;
+    position: sticky;
+} */
+
+/* ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    width: 40vw;
+}
+
+ul li{
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    
+}
+*/
+a{
+    text-decoration: none;
+    color: #D7D9D9;
+    
+} 
+
+/* index */
+
+.parallax{
+    background-image: url("../assets/portada.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.index-title{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction:column;
+    color: #D7D9D9;
+}
+
+.index-title h1{
+    overflow-y: hidden;
+}
+
+.index-title h2{
+    font-size: 4rem;
+    overflow-y: hidden;
+}
+
+.index-title p{
+    font-size: 2rem;
+    
+}
+
+.index-btn{
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.submit-btn{
+    width:12vw ;
+    height: 7vh;
+    margin: 3rem;
+    border-radius: 2rem;
+}
+
+#btn-reservas{
+    background-color:#8C593B;
+    border-color:#8C593B;
+    color: #D7D9D9;
+}
+
+#btn-reservas:hover{
+    background-color: #D7D9D9;
+    color: #0D0D0D;
+}
+
+
+/* Nosotros */
+
+.main-nosotros{
+    background-image: url("../assets/nosotros.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.article-nosotros{
+    color: #D7D9D9;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-nosotros h1{
+    font-size:5rem ;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    border-color: #0D0D0D;
+
+}
+
+.article-nosotros p{
+    font-size: 2.5rem;
+    color: #ffffff;
+    border-color: #0D0D0D;
+}
+
+.section-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    background-color:#d7d9d9d8 ;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    overflow-y: hidden;
+}
+
+.card p{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    width: 90%;
+    overflow: hidden;
+}
+
+.avatar{
+    width: 9rem;
+    height: 9rem;
+    color: #454747;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* Sucursales */
+
+.parallax3{
+    background-image: url("../assets/sucursales.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+
+}
+
+.section-suc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-sucursales h1{
+    color:#D7D9D9;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+
+.card-sucursales{
+    background-color: #141414de;
+    color: #D7D9D9;
+    font-size: 2vh;
+    padding: 0.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-sucursales p{
+    overflow: hidden;
+}
+
+
+
+.map iframe{
+    padding: 2rem;
+}
+
+/* Novedades */
+
+    .section-title h1{
+        font-size: 4rem;
+        color: #D7D9D9;
+        margin:3rem 0 3rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+    }
+    .carousel-container{
+        overflow-y: hidden;
+        margin-bottom: 5rem;
+    }
+
+/* Contacto */
+
+.formulario{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.parallax2{
+    background-image: url("../assets/contacto.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+    overflow-y: hidden;
+}
+
+
+.section-contacto h1{
+    color: #D7D9D9;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.formulario h2{
+    color: #D7D9D9;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+
+.form input{
+    border-color:#d7d9d99a;
+    padding: 2rem;
+    color: #454747;
+    font-size: 2rem;
+    background-color: #d7d9d99a;
+}
+
+.form input::placeholder{
+    color:#0D0D0D;
+    font-size: 1.8rem;
+}
+
+.enviar{
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+    border-color:#d7d9d99a;
+    background-color: #d7d9d99a;
+    color: #454747;
+}
+
+.enviar:hover{
+    background-color: #d7d9d9fa;
+}
+
+
+
+
+/* Footer */
+
+footer{
+    background-color: #141414eb;
+    position:absolute;
+    height: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    bottom: 0;
+}
+
+.wsp-btn{
+    width: 5rem;
+    display: flex;
+}
+
+
+
+.wsp-btn svg{
+    width: 2rem;
+}
+
+/* .footer-bottom{
+    bottom: 0;
+} */
+
+/* Mobile */
+
+
+@media screen and (min-width:320px) and (max-width:767px){
+
+    /* Nav */
+
+    nav a{
+        width: 87%;
+    }
+
+    nav button{
+        width: 9%;
+    }
+
+    .nav-link{
+        display: flex;
+        justify-content: center;
+    }
+
+
+.parallax{
+    height: 90vh;
+    }
+.index-title{
+    width: 80%;
+}
+.index-title h1{
+    font-size: 5rem;
+}
+.index-title h2{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+.index-title p{
+    font-size: 1.5rem;
+}
+.submit-btn{
+    width: 27vw;
+    height: 5vh;
+}
+/* nosotros */
+
+.article-nosotros{
+width: 100%;
+text-align: center;
+
+}
+.article-nosotros p{
+    width: 90%;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.section-card{
+    width: 100%;
+    display: block;
+}
+.card{
+width: 90%;
+padding-bottom: 4rem;
+margin-bottom: 3rem;
+}
+.card p{
+    font-size: 1.4rem;
+}
+
+.card svg{
+    margin-bottom: 1rem;
+}
+/* sucursales */
+
+
+.article-sucursales h1{
+    overflow-y: hidden;
+}
+
+.card-sucursales{
+    width: 90vw;
+    height: 70vh;
+    margin-bottom: 1.5rem;
+}
+.card-sucursales p{
+    font-size: 1.5rem;
+}
+/* nosotros */
+
+/* contacto */
+.formulario{
+    padding: 0rem;
+    width: 90%;
+    height: 70%;
+}
+
+.formulario input{
+    margin-bottom: 1rem;
+    height: 1rem;
+}
+
+.section-contacto h1{
+    font-size: 5rem;
+    overflow-y: hidden;
+}
+.formulario h2{
+    font-size: 3rem;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.enviar{
+    width: 50vw;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+    /* Nav */
+
+    nav a{
+        width: 92%;
+    }
+
+    nav button{
+        width: 6%;
+    }
+
+    .nav-link{
+        display: flex;
+        justify-content: center;
+    }
+
+  /* index */
+    .index-title{
+        width: 70%;
+    }
+
+    .index-title h1{
+    font-size: 8rem;
+}
+
+    .index-title h2{
+        font-size: 3rem;
+    }
+
+    .index-title p{
+        font-size: 1.6rem;
+    }
+    .submit-btn{
+        height: 7vh;
+        margin: 1rem;
+        font-size: 1.6rem;
+        width: 21vw;
+    }
+    /* nosotros */
+
+    .article-nosotros{
+        width: 87%;
+    }
+    
+    .article-nosotros p{
+        font-size: 1.6rem;
+    }
+
+    .section-card{
+        width: 95%;
+        height: 63%;
+    }
+
+    .card{
+        margin: 1rem;
+    }
+
+    /* sucursales */
+
+    .card-sucursales{
+        margin: 1rem;
+    }
+
+
+    .map iframe{
+        height: 25rem;
+        margin-top:2rem;
+    }
+
+    /* Contacto */
+
+    form{
+        width: 90%;
+    }
+
+    form input{
+        margin-bottom: 1rem;
+        height: 6rem;
+    }
+    
+    .section-contacto h1{
+        font-size: 4rem;
+    }
+
+    .formulario h2{
+        width: 50%;
+        overflow-y: hidden;
+        font-size: 3rem;
+    }
+
+    .enviar{
+        width: 40vw;
+        height: 9vh;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+        /* index */
+        .index-title{
+            width: 50%;
+        }
+        .index-title h1{
+            font-size: 10rem;
+        }
+
+        .submit-btn{
+            font-size: 1.6rem;
+        }
+
+        /* nosotros */
+        .article-nosotros{
+            width: 90%;
+            padding-top: 5rem;
+        }
+
+        .article-nosotros p{
+            font-size: 2rem;
+        }
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+            height:50vh;
+        }
+
+        .avatar{
+            margin: 0;
+        }
+
+        .card p{
+            font-size: 1.2rem;
+        }
+        /* sucursales */
+        .card-sucursales{
+            width: 30vw;
+            height: 70vh;
+        }
+        .map{
+            overflow-y: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .article-sucursales h1{
+            overflow-y: hidden;
+        }
+        /* novedades */
+        .section-title h1{
+            overflow-y: hidden;
+        }
+        .carousel-container{
+            height: 80vh;
+        }
+        /* contacto */
+        .section-contacto h1{
+            font-size: 4rem;
+        }
+
+
+        .form input{
+            margin-bottom: 3rem;
+            height: 1rem;
+            width: 90%;
+        }
+        .formulario{
+            width:70% ;
+            padding: 1rem;
+            
+        }
+        .formulario h1{
+            overflow-y: hidden;
+        }
+        .formulario h2{
+            overflow-y: hidden;
+        }
+        .enviar{
+            font-size: 1.8rem;
+            overflow: hidden ;
+        }
+
+        }    
