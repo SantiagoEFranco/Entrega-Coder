@@ -1,0 +1,135 @@
+.parallax2{
+    background-image: url("../assets/contacto.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+    overflow-y: hidden;
+    .section-contacto{
+        h1{
+            color: #D7D9D9;
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2{
+            color: #D7D9D9;
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        .form{
+            input{
+                border-color:#d7d9d99a;
+                padding: 2rem;
+                color: #454747;
+                font-size: 2rem;
+                background-color: #d7d9d99a;
+            }   
+        }
+        .enviar{
+            width: 20vw;
+            height: 7vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.8rem;
+            border-color:#d7d9d99a;
+            background-color: #d7d9d99a;
+            color: #454747;
+        }
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    .parallax2{
+        .section-contacto{
+            h1{
+                font-size: 5rem;
+                overflow-y: hidden;
+            }
+        }
+        .formulario{
+            padding: 0rem;
+            width: 90%;
+            height: 70%;
+            h2{
+                font-size: 3rem;
+                text-align: center;
+                overflow-y: hidden;
+            }
+            .form{
+                input{
+                    margin-bottom: 1rem;
+                    height: 1rem;
+                }   
+            }
+            .enviar{
+                width: 50vw;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .parallax2{
+        .section-contacto{
+            h1{
+                font-size: 4rem;
+            }
+        }
+        .formulario{
+            h2{
+                width: 50%;
+                overflow-y: hidden;
+                font-size: 3rem;
+            }
+            .form{
+                input{
+                    margin-bottom: 1rem;
+                    height: 6rem;
+                }   
+            }
+            .enviar{
+                width: 40vw;
+                height: 9vh;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    .parallax2{
+        .section-contacto{
+            h1{
+                font-size: 4rem;
+            }
+        }
+        .formulario{
+            width:70% ;
+            padding: 1rem;
+            h2{
+                overflow-y: hidden;
+            }
+            .form{
+                input{
+                    margin-bottom: 3rem;
+                    height: 1rem;
+                    width: 90%;
+                }   
+            }
+            .enviar{
+                font-size: 1.8rem;
+                overflow: hidden ;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+footer{
+    background-color: #141414eb;
+    position:absolute;
+    height: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    bottom: 0;
+    .wsp-btn{
+        width: 5rem;
+        display: flex;
+        .wsp-btn svg{
+            width: 2rem;
+        }
+    }
+}
+
