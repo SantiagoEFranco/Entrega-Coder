@@ -73,6 +73,9 @@
         .section-suc{
             .card-sucursales{
                 margin: 1rem;
+                p{
+                    font-size: 1.3rem;
+                }
                 .map{
                     iframe{
                         height: 25rem;
@@ -90,12 +93,13 @@
             .article-sucursales{
                 h1{
                     overflow-y: hidden;
+                    font-size: 5rem;
                 }
             }
         }
         .section-suc{
             .card-sucursales{
-                width: 30vw;
+                width: 22vw;
                 height: 70vh;
                 .map{
                     overflow-y: hidden;

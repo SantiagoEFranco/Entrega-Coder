@@ -50,7 +50,7 @@ nav .container-fluid #navbarNav ul li .nav-link {
 }
 footer {
   background-color: rgba(20, 20, 20, 0.9215686275);
-  position: absolute;
+  position: fixed;
   height: 3rem;
   display: flex;
   justify-content: center;
@@ -65,6 +65,17 @@ footer .wsp-btn .wsp-btn svg {
   width: 2rem;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer {
+    background-color: rgba(20, 20, 20, 0.9215686275);
+    position: fixed;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+  }
+}
 main .parallax {
   background-image: url("../assets/portada.jpg");
   background-attachment: fixed;
@@ -170,7 +181,6 @@ main .main-nosotros {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 main .main-nosotros section .article-nosotros {
   color: #D7D9D9;
@@ -234,6 +244,7 @@ main .main-nosotros .section-card .card .avatar {
   main .main-nosotros .section-card {
     width: 100%;
     display: block;
+    padding-bottom: 1rem;
   }
   main .main-nosotros .section-card .card {
     width: 90%;
@@ -248,18 +259,26 @@ main .main-nosotros .section-card .card .avatar {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  main .main-nosotros {
+    height: 100vh;
+  }
   main .main-nosotros section .article-nosotros {
     width: 87%;
+    padding-top: 4rem;
   }
   main .main-nosotros section .article-nosotros p {
     font-size: 1.6rem;
   }
   main .main-nosotros .section-card {
     width: 95%;
-    height: 63%;
+    padding-top: 3rem;
   }
   main .main-nosotros .section-card .card {
     margin: 1rem;
+    height: 40rem;
+  }
+  main .main-nosotros .section-card .card p {
+    padding-top: 4rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -276,9 +295,10 @@ main .main-nosotros .section-card .card .avatar {
     align-items: center;
     width: 20%;
     height: 50vh;
+    margin-bottom: 5rem;
   }
   main .main-nosotros .section-card .card p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   main .main-nosotros .section-card .card .avatar {
     margin: 0;
@@ -344,6 +364,9 @@ main .main-nosotros .section-card .card .avatar {
   .parallax3 .section-suc .card-sucursales {
     margin: 1rem;
   }
+  .parallax3 .section-suc .card-sucursales p {
+    font-size: 1.3rem;
+  }
   .parallax3 .section-suc .card-sucursales .map iframe {
     height: 25rem;
     margin-top: 2rem;
@@ -352,9 +375,10 @@ main .main-nosotros .section-card .card .avatar {
 @media screen and (min-width: 1024px) {
   .parallax3 .section-parallax3 .article-sucursales h1 {
     overflow-y: hidden;
+    font-size: 5rem;
   }
   .parallax3 .section-suc .card-sucursales {
-    width: 30vw;
+    width: 22vw;
     height: 70vh;
   }
   .parallax3 .section-suc .card-sucursales .map {
@@ -457,6 +481,9 @@ main .carousel-container {
   .parallax2 .section-contacto h1 {
     font-size: 4rem;
   }
+  .parallax2 .formulario {
+    width: 90%;
+  }
   .parallax2 .formulario h2 {
     width: 50%;
     overflow-y: hidden;
@@ -464,7 +491,7 @@ main .carousel-container {
   }
   .parallax2 .formulario .form input {
     margin-bottom: 1rem;
-    height: 6rem;
+    height: 3rem;
   }
   .parallax2 .formulario .enviar {
     width: 40vw;
