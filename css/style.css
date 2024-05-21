@@ -147,6 +147,7 @@ main .parallax .index-btn #btn-reservas {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   main .parallax .index-title {
     width: 70%;
+    height: 30%;
   }
   main .parallax .index-title h1 {
     font-size: 8rem;
