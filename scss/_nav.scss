@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Sacramento&display=swap');
 nav{
    .container-fluid{
     .navbar-brand{
         color: #D7D9D9;
+        font-family: "Cookie", cursive;
     }
     span{
         background-color: #D7D9D9;
@@ -59,4 +61,28 @@ nav{
         }
     }
     } 
+}
+@media screen and (min-width:1024px){
+    nav{
+        .container-fluid{
+         .navbar-brand{
+             color: #D7D9D9;
+             font-family: "Cookie", cursive;
+             font-size: 2rem;
+         }
+         span{
+             background-color: #D7D9D9;
+         }
+         #navbarNav{
+          ul{
+             li{
+                 .nav-link{
+                     color: #D7D9D9;
+                     font-size: 1.3rem;
+                 }
+             }
+          }
+         }
+        }
+}
 }

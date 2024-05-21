@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Sacramento&display=swap");
 * {
   margin: 0 auto;
   padding: 0;
@@ -15,6 +16,7 @@ html body {
 
 nav .container-fluid .navbar-brand {
   color: #D7D9D9;
+  font-family: "Cookie", cursive;
 }
 nav .container-fluid span {
   background-color: #D7D9D9;
@@ -46,6 +48,20 @@ nav .container-fluid #navbarNav ul li .nav-link {
   nav #navbarNav ul li .nav-link {
     display: flex;
     justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  nav .container-fluid .navbar-brand {
+    color: #D7D9D9;
+    font-family: "Cookie", cursive;
+    font-size: 2rem;
+  }
+  nav .container-fluid span {
+    background-color: #D7D9D9;
+  }
+  nav .container-fluid #navbarNav ul li .nav-link {
+    color: #D7D9D9;
+    font-size: 1.3rem;
   }
 }
 footer {
@@ -147,7 +163,6 @@ main .parallax .index-btn #btn-reservas {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   main .parallax .index-title {
     width: 70%;
-    height: 30%;
   }
   main .parallax .index-title h1 {
     font-size: 8rem;
