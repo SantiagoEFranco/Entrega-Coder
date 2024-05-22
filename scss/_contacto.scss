@@ -44,6 +44,10 @@
             border-color:#d7d9d99a;
             background-color: #d7d9d99a;
             color: #454747;
+            &:hover{
+                background-color: #d7d9d9d0;
+                color: #1e1f1fcb;
+            }
         }
     }
 }

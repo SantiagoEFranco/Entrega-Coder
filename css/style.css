@@ -18,6 +18,9 @@ nav .container-fluid .navbar-brand {
   color: #D7D9D9;
   font-family: "Cookie", cursive;
 }
+nav .container-fluid .navbar-brand:hover {
+  font-weight: bold;
+}
 nav .container-fluid span {
   background-color: #D7D9D9;
 }
@@ -26,7 +29,6 @@ nav .container-fluid #navbarNav ul li .nav-link {
   font-size: 1.3rem;
 }
 nav .container-fluid #navbarNav ul li .nav-link:hover {
-  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -227,7 +229,7 @@ main .parallax .index-btn #btn-reservas:hover {
     color: #D7D9D9;
   }
   main .parallax .index-btn #btn-reservas:hover {
-    background-color: rgba(140, 89, 59, 0.9647058824);
+    background-color: rgba(140, 89, 59, 0.8156862745);
   }
 }
 main .main-nosotros {
@@ -507,6 +509,10 @@ main .carousel-container {
   border-color: rgba(215, 217, 217, 0.6039215686);
   background-color: rgba(215, 217, 217, 0.6039215686);
   color: #454747;
+}
+.parallax2 .formulario .enviar:hover {
+  background-color: rgba(215, 217, 217, 0.8156862745);
+  color: rgba(30, 31, 31, 0.7960784314);
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

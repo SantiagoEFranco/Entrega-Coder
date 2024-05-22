@@ -4,6 +4,9 @@ nav{
     .navbar-brand{
         color: #D7D9D9;
         font-family: "Cookie", cursive;
+        &:hover{
+            font-weight: bold;
+        }
     }
     span{
         background-color: #D7D9D9;
@@ -15,7 +18,6 @@ nav{
                 color: #D7D9D9;
                 font-size: 1.3rem;
                 &:hover{
-                    font-size: 1.5rem;
                     font-weight: bold;
                 }
             }
