@@ -31,7 +31,7 @@ main{
             }
             p{
                 font-size: 2rem;
-                
+                overflow-y: hidden;
             }
         }
             .index-btn{
@@ -39,15 +39,17 @@ main{
                 justify-content:center;
                 align-items: center;
                 .submit-btn{
-                    width:12vw ;
-                    height: 7vh;
                     margin: 3rem;
+                    font-size: 2rem;
                     border-radius: 2rem;
                 }
                 #btn-reservas{
                     background-color:#8C593B;
                     border-color:#8C593B;
                     color: #D7D9D9;
+                    &:hover{
+                        background-color:#8c593bf6;  
+                    }
                 }
             }
         
@@ -89,6 +91,9 @@ main{
 @media screen and (min-width:768px) and (max-width:1023px){
     main{
         .parallax{
+            display: flex;
+            justify-content: start;
+           padding-top: 12rem;
             .index-title{
                 width: 70%;
                 h1{
@@ -102,11 +107,12 @@ main{
                     
                 }
                 .index-btn{
+                 
                     .submit-btn{
                         height: 7vh;
                         margin: 1rem;
                         font-size: 1.6rem;
-                        width: 21vw;
+                       
                     }
                 }
             }
@@ -117,17 +123,48 @@ main{
 @media screen and (min-width:1024px){
     main{
         .parallax{
+           
             .index-title{
+                display: flex;
+                justify-content: center;
+                align-items:start;
+                flex-direction:column;
+                color: #D7D9D9;
                 width: 50%;
                 h1{
+                    overflow-y: hidden;
                     font-size: 10rem;
                 }
-                .index-btn{
-                    .submit-btn{
-                        font-size: 1.6rem;
-                    }
+                h2{
+                    font-size: 4rem;
+                    overflow-y: hidden;
+                }
+                p{
+                    font-size: 2rem;
+                    
                 }
             }
+                .index-btn{
+                    display: inline-flex;
+                    justify-content:center;
+                    align-items: center;
+                    .submit-btn{
+                        margin: 3rem;
+                        font-size: 2rem;
+                        border-radius: 2rem;
+                        width: 18rem;
+                    }
+                    #btn-reservas{
+                        background-color:#8C593B;
+                        border-color:#8C593B;
+                        color: #D7D9D9;
+                        &:hover{
+                            background-color:#8c593bf6;  
+                        }
+                    }
+                }
+            
         }
     }
+    
 }

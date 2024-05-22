@@ -25,6 +25,10 @@ nav .container-fluid #navbarNav ul li .nav-link {
   color: #D7D9D9;
   font-size: 1.3rem;
 }
+nav .container-fluid #navbarNav ul li .nav-link:hover {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   nav a {
@@ -64,21 +68,19 @@ nav .container-fluid #navbarNav ul li .nav-link {
     font-size: 1.3rem;
   }
 }
-footer {
-  background-color: rgba(20, 20, 20, 0.9215686275);
-  position: fixed;
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 0;
+footer .parent {
+  height: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
-footer .wsp-btn {
-  width: 5rem;
-  display: flex;
+footer .parent a svg {
+  color: #D7D9D9;
 }
-footer .wsp-btn .wsp-btn svg {
-  width: 2rem;
+footer .parent a svg:hover {
+  color: rgba(186, 187, 187, 0.6862745098);
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -120,6 +122,7 @@ main .parallax .index-title h2 {
 }
 main .parallax .index-title p {
   font-size: 2rem;
+  overflow-y: hidden;
 }
 main .parallax .index-btn {
   display: inline-flex;
@@ -127,15 +130,17 @@ main .parallax .index-btn {
   align-items: center;
 }
 main .parallax .index-btn .submit-btn {
-  width: 12vw;
-  height: 7vh;
   margin: 3rem;
+  font-size: 2rem;
   border-radius: 2rem;
 }
 main .parallax .index-btn #btn-reservas {
   background-color: #8C593B;
   border-color: #8C593B;
   color: #D7D9D9;
+}
+main .parallax .index-btn #btn-reservas:hover {
+  background-color: rgba(140, 89, 59, 0.9647058824);
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -161,6 +166,11 @@ main .parallax .index-btn #btn-reservas {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  main .parallax {
+    display: flex;
+    justify-content: start;
+    padding-top: 12rem;
+  }
   main .parallax .index-title {
     width: 70%;
   }
@@ -177,18 +187,46 @@ main .parallax .index-btn #btn-reservas {
     height: 7vh;
     margin: 1rem;
     font-size: 1.6rem;
-    width: 21vw;
   }
 }
 @media screen and (min-width: 1024px) {
   main .parallax .index-title {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: #D7D9D9;
     width: 50%;
   }
   main .parallax .index-title h1 {
+    overflow-y: hidden;
     font-size: 10rem;
   }
-  main .parallax .index-title .index-btn .submit-btn {
-    font-size: 1.6rem;
+  main .parallax .index-title h2 {
+    font-size: 4rem;
+    overflow-y: hidden;
+  }
+  main .parallax .index-title p {
+    font-size: 2rem;
+  }
+  main .parallax .index-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .parallax .index-btn .submit-btn {
+    margin: 3rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+    width: 18rem;
+  }
+  main .parallax .index-btn #btn-reservas {
+    background-color: #8C593B;
+    border-color: #8C593B;
+    color: #D7D9D9;
+  }
+  main .parallax .index-btn #btn-reservas:hover {
+    background-color: rgba(140, 89, 59, 0.9647058824);
   }
 }
 main .main-nosotros {
