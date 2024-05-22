@@ -68,19 +68,20 @@ nav .container-fluid #navbarNav ul li .nav-link:hover {
     font-size: 1.3rem;
   }
 }
-footer .parent {
+footer .footerContainer {
   height: 2.5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  background-color: #212529;
 }
-footer .parent a svg {
+footer .footerContainer a svg {
   color: #D7D9D9;
 }
-footer .parent a svg:hover {
-  color: rgba(186, 187, 187, 0.6862745098);
+footer .footerContainer a svg:hover {
+  color: rgba(186, 187, 187, 0.5607843137);
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

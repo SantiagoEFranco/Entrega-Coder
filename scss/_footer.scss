@@ -5,18 +5,19 @@ $marronOscuro:#731F1F;
 $negro:#0D0D0D;
 
 footer{
-    .parent {
+    .footerContainer {
         height: 2.5rem;
         display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-template-rows: 1fr;
     grid-column-gap: 0px;
      grid-row-gap: 0px; 
+     background-color: #212529;
         a{
             svg{
                 color: $blanco;
                 &:hover{
-                 color: #babbbbaf;
+                 color: #babbbb8f;
                 }
             }
         }
