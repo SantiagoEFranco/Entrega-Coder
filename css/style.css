@@ -126,6 +126,7 @@ main .parallax .index-title h2 {
 main .parallax .index-title p {
   font-size: 2rem;
   overflow-y: hidden;
+  color: white;
 }
 main .parallax .index-btn {
   display: inline-flex;
@@ -252,6 +253,7 @@ main .main-nosotros section .article-nosotros h1 {
   justify-content: center;
   padding-bottom: 1rem;
   border-color: #0D0D0D;
+  color: white;
 }
 main .main-nosotros section .article-nosotros p {
   font-size: 2.5rem;
@@ -263,6 +265,8 @@ main .main-nosotros .section-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 1rem;
+  text-align: justify;
 }
 main .main-nosotros .section-card .card {
   background-color: rgba(215, 217, 217, 0.8470588235);
@@ -370,7 +374,7 @@ main .main-nosotros .section-card .card .avatar {
   height: 94vh;
 }
 .parallax3 .section-parallax3 .article-sucursales h1 {
-  color: #D7D9D9;
+  color: white;
   font-size: 4rem;
   display: flex;
   justify-content: center;
@@ -393,9 +397,11 @@ main .main-nosotros .section-card .card .avatar {
   flex-direction: column;
   border-radius: 1rem;
   margin-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .parallax3 .section-suc .card-sucursales P {
   overflow: hidden;
+  padding-bottom: 4rem;
 }
 .parallax3 .section-suc .card-sucursales .map iframe {
   padding: 2rem;
@@ -475,7 +481,7 @@ main .carousel-container {
   overflow-y: hidden;
 }
 .parallax2 .section-contacto h1 {
-  color: #D7D9D9;
+  color: white;
   margin-top: 2rem;
   display: flex;
   justify-content: center;
@@ -488,7 +494,7 @@ main .carousel-container {
   flex-direction: column;
 }
 .parallax2 .formulario h2 {
-  color: #D7D9D9;
+  color: white;
   font-size: 4rem;
   margin-bottom: 1rem;
 }
