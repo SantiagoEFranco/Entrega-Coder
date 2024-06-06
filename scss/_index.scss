@@ -24,15 +24,25 @@ main{
             color: #D7D9D9;
             h1{
                 overflow-y: hidden;
+                -webkit-text-stroke-width:1px;
+                -webkit-text-stroke-color:rgba(0, 0, 0, 0.32);
+                text-align: center;
             }
             h2{
                 font-size: 4rem;
                 overflow-y: hidden;
+                -webkit-text-stroke-width:1px;
+                -webkit-text-stroke-color:rgba(0, 0, 0, 0.32);
+                text-align: center;
+                
             }
             p{
                 font-size: 2rem;
                 overflow-y: hidden;
                 color: white;
+                -webkit-text-stroke-width:1.5px;
+                -webkit-text-stroke-color:rgba(0, 0, 0, 0.32);
+                text-align: center;
             }
         }
             .index-btn{

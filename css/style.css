@@ -118,15 +118,24 @@ main .parallax .index-title {
 }
 main .parallax .index-title h1 {
   overflow-y: hidden;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.32);
+  text-align: center;
 }
 main .parallax .index-title h2 {
   font-size: 4rem;
   overflow-y: hidden;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.32);
+  text-align: center;
 }
 main .parallax .index-title p {
   font-size: 2rem;
   overflow-y: hidden;
   color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.32);
+  text-align: center;
 }
 main .parallax .index-btn {
   display: inline-flex;
@@ -254,11 +263,15 @@ main .main-nosotros section .article-nosotros h1 {
   padding-bottom: 1rem;
   border-color: #0D0D0D;
   color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.32);
 }
 main .main-nosotros section .article-nosotros p {
   font-size: 2.5rem;
   color: #ffffff;
-  border-color: #0D0D0D;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.32);
+  text-align: center;
 }
 main .main-nosotros .section-card {
   width: 100%;
@@ -380,6 +393,8 @@ main .main-nosotros .section-card .card .avatar {
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.32);
 }
 .parallax3 .section-suc {
   display: flex;
@@ -457,6 +472,8 @@ main .section-title h1 {
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.32);
 }
 main .carousel-container {
   overflow-y: hidden;
@@ -486,17 +503,21 @@ main .carousel-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.32);
 }
-.parallax2 .formulario {
+.parallax2 .formulario, .parallax2 .formulario .enviar, .parallax2 .formulario .enviar h2, .parallax2 .formulario h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.parallax2 .formulario h2 {
+.parallax2 .formulario h2, .parallax2 .formulario .enviar h2 {
   color: white;
   font-size: 4rem;
   margin-bottom: 1rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.32);
 }
 .parallax2 .formulario .form input {
   border-color: rgba(215, 217, 217, 0.6039215686);
@@ -508,9 +529,6 @@ main .carousel-container {
 .parallax2 .formulario .enviar {
   width: 20vw;
   height: 7vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 0.8rem;
   border-color: rgba(215, 217, 217, 0.6039215686);
   background-color: rgba(215, 217, 217, 0.6039215686);
@@ -526,12 +544,12 @@ main .carousel-container {
     font-size: 5rem;
     overflow-y: hidden;
   }
-  .parallax2 .formulario {
+  .parallax2 .formulario, .parallax2 .formulario h2, .parallax2 .formulario .enviar, .parallax2 .formulario .enviar h2 {
     padding: 0rem;
     width: 90%;
     height: 70%;
   }
-  .parallax2 .formulario h2 {
+  .parallax2 .formulario h2, .parallax2 .formulario .enviar h2 {
     font-size: 3rem;
     text-align: center;
     overflow-y: hidden;
@@ -548,10 +566,10 @@ main .carousel-container {
   .parallax2 .section-contacto h1 {
     font-size: 4rem;
   }
-  .parallax2 .formulario {
+  .parallax2 .formulario, .parallax2 .formulario h2, .parallax2 .formulario .enviar, .parallax2 .formulario .enviar h2 {
     width: 90%;
   }
-  .parallax2 .formulario h2 {
+  .parallax2 .formulario h2, .parallax2 .formulario .enviar h2 {
     width: 50%;
     overflow-y: hidden;
     font-size: 3rem;
@@ -570,11 +588,11 @@ main .carousel-container {
   .parallax2 .section-contacto h1 {
     font-size: 4rem;
   }
-  .parallax2 .formulario {
+  .parallax2 .formulario, .parallax2 .formulario h2, .parallax2 .formulario .enviar, .parallax2 .formulario .enviar h2 {
     width: 70%;
     padding: 1rem;
   }
-  .parallax2 .formulario h2 {
+  .parallax2 .formulario h2, .parallax2 .formulario .enviar h2 {
     overflow-y: hidden;
   }
   .parallax2 .formulario .form input {

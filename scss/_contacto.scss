@@ -13,6 +13,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            -webkit-text-stroke-width:1px;
+            -webkit-text-stroke-color:rgba(0, 0, 0, 0.32);
         }
     }
     .formulario{
@@ -24,6 +26,9 @@
             color: white;
             font-size: 4rem;
             margin-bottom: 1rem;
+            @extend .formulario;
+            -webkit-text-stroke-width:1px;
+            -webkit-text-stroke-color:rgba(0, 0, 0, 0.32);
         }
         .form{
             input{
@@ -37,9 +42,7 @@
         .enviar{
             width: 20vw;
             height: 7vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+           @extend .formulario;
             border-radius: 0.8rem;
             border-color:#d7d9d99a;
             background-color: #d7d9d99a;
